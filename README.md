@@ -21,10 +21,16 @@ npm install dm-tex --save # for programmatically use
 
 ### [livereload](tasks/livereload/index.js)
 * livereloads a tex sheet
+* cd into the folder containing .tex files
+* run dmtex lr
+```
+[dmtex|dm-tex] [livereload|lr]
+```
 
 #### livereload global usage
 ```
-dmtex [livereload|lr]
+cd your_tex_file_containing_folder
+dmtex lr
 ```
 
 #### livereload programmatically usage
