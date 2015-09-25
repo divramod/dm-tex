@@ -2,7 +2,7 @@
   "private": false,
   "name": "dm-tex",
   "shortcut": "dmtex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tex helper",
   "main": "index.js",
   "scripts": {
