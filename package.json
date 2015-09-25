@@ -1,0 +1,43 @@
+{
+  "private": false,
+  "name": "dm-tex",
+  "shortcut": "dmtex",
+  "version": "0.0.0",
+  "description": "tex helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --require co-mocha --watch --reporter landing",
+    "start": "node --harmony ./bin/dm-tex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divramod/dm-tex.git"
+  },
+  "keywords": [
+    "npm",
+    "template"
+  ],
+  "author": "AUTHOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-tex/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-tex",
+  "dependencies": {
+    "chai": "^2.1.0",
+    "co": "^4.4.0",
+    "co-mocha": "^1.1.0",
+    "colors": "^1.1.2",
+    "dm-npm": "^0.1.14",
+    "dm-shell": "^0.1.4",
+    "mocha": "^2.1.0",
+    "shelljs": "^0.5.3",
+    "watch": "^0.16.0"
+  },
+  "bin": {
+    "dmtex": "./bin/dm-tex",
+    "dm-tex": "./bin/dm-tex",
+    "gdmtex": "./bin/gdm-tex",
+    "dmtexg": "./bin/gdm-tex"
+  }
+}
