@@ -13,6 +13,11 @@ jobs.index = co.wrap(function*() {
 
         // automatically add tasks here
 
+        // =========== [ convertFileTxtToPdf ] ===========
+        else if (['convertFileTxtToPdf','cfttp'].indexOf(argv2) > -1) {
+            var task = require("./tasks/convertFileTxtToPdf/index.js");
+            task.start();
+        }
         // =========== [ livereload ] ===========
         else if (['livereload','lr'].indexOf(argv2) > -1) {
             var task = require("./tasks/livereload/index.js");

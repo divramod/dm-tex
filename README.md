@@ -19,6 +19,32 @@ npm install dm-tex --save # for programmatically use
 
 ## Tasks
 
+### [convertFileTxtToPdf](tasks/convertFileTxtToPdf/index.js)
+* converts a file from raw txt to pdf
+
+#### convertFileTxtToPdf global usage
+```
+dmtex [convertFileTxtToPdf|cfttp]
+```
+
+#### convertFileTxtToPdf programmatically usage
+```javascript
+var convertFileTxtToPdf = require("dm-tex").convertFileTxtToPdf;
+var convertFileTxtToPdfResult = convertFileTxtToPdf.start();
+```
+
+#### convertFileTxtToPdf steps
+
+#### convertFileTxtToPdf features
+
+#### convertFileTxtToPdf config
+```javascript
+{
+    "convertFileTxtToPdf": {
+    }
+}
+```
+
 ### [livereload](tasks/livereload/index.js)
 * livereloads a tex sheet
 * cd into the folder containing .tex files
